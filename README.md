@@ -1,7 +1,9 @@
-# CO490 Coursework - Quality Estimation
+# CO490 Coursework - Sentence-level Quality Estimation Shared Task 2020
 
 ## Notebooks
 
-* `nlpcw_keras.ipynb` - Contains the methods to convert the input sentences into word embeddings. Additionally, contains all the deep neural networks that we implemented using Keras.
-* `statistical_regressors.ipynb` - Contains the implementation of the different statistical regressors that were tested using **sklearn** and **GloVe** word embeddings.
-* `word2vec_preprocessing.ipynb` - Contains preprocessing of the dataset including removing punctuation and numbers from sentences to increase embedding coverage.
+* `neural_network_models.ipynb` - Contains all the neural network regression models created for quality estimation that we implemented using Keras.
+* `statistical_regressors.ipynb` - Contains the implementation of the different statistical regressors for quality estimation.
+* `word2vec_preprocessing.ipynb` - Contains preprocessing of the dataset including removing punctuation and numbers from sentences to increase embedding coverage for Word2vec embeddings.
+
+In order to run each of the notebooks, please follow the instructions within each notebook.
